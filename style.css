@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.navbar-nav {
+    list-style: none;
+  }
+
+.universal-font
+{
+    font-family: "Poppins";
+}
+
+.sign-btn{
+    border-radius: 25px;
+}
+.home-bg{
+    background-color: #F0FFF0;
+    max-height: 100vh;
+    
+}
+
+.card{
+    border-radius: 4px;
+    background-color: #F8FFFB;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.2);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.main-image{
+    
+    pointer-events: none;
+}
+.ready-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.main-highlight{
+    color: green;
+}
+.learn-text{
+    font-size: 3rem;
+    font-weight: bold;
+    width: 500px;
+}
+.topic-text{
+    color:rgba(65, 57, 96, 1);
+    font-weight: 500;
+}
